@@ -2,54 +2,57 @@
 
 English | [简体中文](README.zh-CN.md)
 
-ReArk is a professional reverse engineering tool for HarmonyOS NEXT applications. It analyzes `.hap`, `.app`, and `.abc` files, with support for disassembly, decompilation, string analysis, cross-references, signature inspection, re-signing, package browsing, repackaging, application metadata, Agent-assisted analysis, device interaction, and evidence trace analysis.
+ReArk is a desktop reverse engineering and AI-assisted analysis tool for HarmonyOS and Android applications. Open HarmonyOS `.hap`, `.app`, and `.abc` files or Android `.apk` and `.aab` packages to inspect code, resources, metadata, and application behavior in one workspace.
 
-ReArk lowers the barrier to HarmonyOS application analysis. Use it to review app security, work through HarmonyOS CTF challenges, reverse application logic, automate interactions on HarmonyOS devices, inspect runtime logs, and build your own analysis workflow.
+Combine static analysis with connected-device inspection and ReArk Agent to investigate application logic, review security, and work through CTF challenges.
 
-## Installation
+## Installation and platforms
 
-Download and run:
+Download the installer for your computer from [Latest release](https://github.com/lkimuk/ReArk/releases/latest). See [All releases](https://github.com/lkimuk/ReArk/releases) for version history and release notes.
 
-[ReArk-0.2.0-windows-x64-setup.exe](https://github.com/lkimuk/ReArk/releases/download/v0.2.0/ReArk-0.2.0-windows-x64-setup.exe)
+| Desktop platform | Availability |
+| --- | --- |
+| Windows x64 | Setup installer available in v1.0.0 |
+| macOS Apple Silicon | DMG available in v1.0.0 |
+| Linux | Source build and packaging configuration; no installer in v1.0.0 |
+| HarmonyOS PC | No native ReArk application package currently available |
+
+HarmonyOS and Android support refers to the applications and devices ReArk analyzes. The desktop application does not currently build as a HarmonyOS HAP.
 
 ## Feature Highlights
 
-**Package Analysis**
+**Package and static analysis**
 
-- Supports HarmonyOS NEXT `.hap`, `.app`, and `.abc` files
-- Browse package structure, modules, generated source output, resources, signatures, and metadata
-- Inspect signatures and certificate information
-- Search files and quickly open important paths from the package tree
+- Analyze HarmonyOS HAP/APP/ABC and Android APK/AAB files
+- Browse package structure, modules, source output, resources, and application metadata
+- Disassemble and decompile ABC bytecode; explore strings, literals, cross-references, and call argument flows
+- Inspect Android manifests, permissions, components, entry points, resources, and application icons
+- Read Android disassembly and Java-like decompiled output
+- View hex data, formatted JSON, XML, text, images, and media resources; search files and navigate source output
 
-**Static Analysis**
+**HarmonyOS signing and packaging**
 
-- Parse ABC files
-- Disassemble and decompile ABC bytecode
-- Reconstruct source structure and view disassembly or decompiled output for the corresponding source files
-- Inspect ABC strings, hex content, formatted JSON, text, images, and media resources
-- Use ABC trace tools for strings, literals, xrefs, call argument flows, ABC tree inspection, source reading, and disassembly reading
-- Keep analysis grounded in real package clues with less note juggling and context switching
-
-**Signing And Packaging**
-
-- Configure signing materials and inspect signing validity
-- Re-sign applications
-- Package and install applications
+- Inspect signatures, certificates, and signing validity
+- Configure signing materials, re-sign, and repackage HarmonyOS applications
+- Install supported application packages on connected devices; Android device installation uses APK files
 
 **ReArk Agent**
 
-- Ask contextual questions about the currently opened package
-- Let the Agent inspect package metadata, files, strings, disassembly, and decompiled output when needed
-- Use provider presets for OpenRouter, OpenAI, OpenAI-compatible endpoints, Anthropic, Gemini, Ollama, DeepSeek, DashScope, and Qwen
-- Attach reference documents to enrich AI-assisted analysis with your own notes and materials
-- Drive a full analysis flow across static review, signing and packaging, application installation, launch verification, and log tracing
+- Ask contextual questions about the current HarmonyOS or Android package
+- Discover analysis capabilities and retrieve package files, metadata, strings, disassembly, and decompiled output as needed
+- Attach reference documents to supplement package evidence with your own materials
+- Use supported model providers, including OpenAI-compatible endpoints and local Ollama models
+- Combine static analysis with device workflows; host commands, Python execution, and device operations use the applicable approval flows
 
-**Device Connection**
+**Connected devices**
 
-- Discover connected HarmonyOS devices
-- Install the current application to a device
-- Capture screenshots, inspect UI nodes, and connect UI clues to the real device state
-- Read Hilog output and perform basic UI actions such as tap, text input, Back, Home, and swipe
+- Discover HarmonyOS devices through HDC and Android devices through ADB
+- Install and launch applications, capture screenshots, inspect UI nodes, and read device logs
+- Mirror device screens in real time and control devices using mouse and keyboard
+- Use screen recording, audio, clipboard, and device controls where supported by the device and runtime
+- Work with fullscreen or detached mirroring windows
+
+Available analysis views and device actions depend on the package format, operating system version, and device capabilities. ABC evidence tools and HarmonyOS re-signing are specific to HarmonyOS packages.
 
 ## Screenshots
 
