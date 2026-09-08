@@ -15,9 +15,6 @@ Download the installer for your computer from [Latest release](https://github.co
 | Windows x64 | Setup installer available in v1.0.0 |
 | macOS Apple Silicon | DMG available in v1.0.0 |
 | Linux | Source build and packaging configuration; no installer in v1.0.0 |
-| HarmonyOS PC | No native ReArk application package currently available |
-
-HarmonyOS and Android support refers to the applications and devices ReArk analyzes. The desktop application does not currently build as a HarmonyOS HAP.
 
 ## Feature Highlights
 

@@ -15,9 +15,6 @@ ReArk 是一款面向 HarmonyOS 和 Android 应用的桌面逆向与 AI 辅助�
 | Windows x64 | v1.0.0 提供安装程序 |
 | macOS Apple Silicon | v1.0.0 提供 DMG 安装包 |
 | Linux | 已有源码构建与打包配置；v1.0.0 未提供安装包 |
-| 鸿蒙电脑 | 暂未提供 ReArk 原生应用包 |
-
-支持 HarmonyOS 和 Android 指的是可分析的应用和可连接的设备。ReArk 桌面主程序目前尚不能直接构建为鸿蒙 HAP 应用。
 
 ## 功能亮点
 
