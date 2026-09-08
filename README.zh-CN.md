@@ -10,11 +10,11 @@ ReArk 是一款面向 HarmonyOS 和 Android 应用的桌面逆向与 AI 辅助�
 
 请前往[最新发布页](https://github.com/lkimuk/ReArk/releases/latest)，下载适合电脑系统的安装包。历史版本和更新说明见[全部发布版本](https://github.com/lkimuk/ReArk/releases)。
 
-| 桌面运行平台 | 提供情况 |
-| --- | --- |
-| Windows x64 | v1.0.0 提供安装程序 |
-| macOS Apple Silicon | v1.0.0 提供 DMG 安装包 |
-| Linux | 已有源码构建与打包配置；v1.0.0 未提供安装包 |
+| 系统 | 版本要求 | 点击直接下载 |
+| :---: | --- | --- |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/windows8/windows8-original.svg" width="44" height="44" alt="Windows"><br>Windows | Windows 10+<br>x64 | [![Setup x64](https://img.shields.io/badge/Setup-x64-0078D4?style=flat-square)](https://github.com/lkimuk/ReArk/releases/download/v1.0.0/ReArk-1.0.0-windows-x64-setup.exe) |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/apple/apple-original.svg" width="44" height="44" alt="macOS"><br>macOS | macOS 14.0+<br>Apple Silicon | [![DMG Apple Silicon](https://img.shields.io/badge/DMG-Apple_Silicon-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/lkimuk/ReArk/releases/download/v1.0.0/ReArk-1.0.0-macos-arm64.dmg) |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/linux/linux-original.svg" width="44" height="44" alt="Linux"><br>Linux | x64<br>需自行构建；系统要求待验证 | 暂无安装包 |
 
 ## 功能亮点
 

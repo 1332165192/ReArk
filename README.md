@@ -10,11 +10,11 @@ Combine static analysis with connected-device inspection and ReArk Agent to inve
 
 Download the installer for your computer from [Latest release](https://github.com/lkimuk/ReArk/releases/latest). See [All releases](https://github.com/lkimuk/ReArk/releases) for version history and release notes.
 
-| Desktop platform | Availability |
-| --- | --- |
-| Windows x64 | Setup installer available in v1.0.0 |
-| macOS Apple Silicon | DMG available in v1.0.0 |
-| Linux | Source build and packaging configuration; no installer in v1.0.0 |
+| OS | Requirements | Direct links |
+| :---: | --- | --- |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/windows8/windows8-original.svg" width="44" height="44" alt="Windows"><br>Windows | Windows 10+<br>x64 | [![Setup x64](https://img.shields.io/badge/Setup-x64-0078D4?style=flat-square)](https://github.com/lkimuk/ReArk/releases/download/v1.0.0/ReArk-1.0.0-windows-x64-setup.exe) |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/apple/apple-original.svg" width="44" height="44" alt="macOS"><br>macOS | macOS 14.0+<br>Apple Silicon | [![DMG Apple Silicon](https://img.shields.io/badge/DMG-Apple_Silicon-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/lkimuk/ReArk/releases/download/v1.0.0/ReArk-1.0.0-macos-arm64.dmg) |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/linux/linux-original.svg" width="44" height="44" alt="Linux"><br>Linux | x64<br>Build from source; system requirements pending validation | No installer available |
 
 ## Feature Highlights
 
