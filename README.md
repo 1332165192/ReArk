@@ -53,21 +53,17 @@ Available analysis views and device actions depend on the package format, operat
 
 ## Screenshots
 
-| Workspace overview | Ark disassembly |
+| HarmonyOS decompilation | Android decompilation |
 | --- | --- |
-| <img src="assets/screenshots/01-overview.png" alt="ReArk workspace overview" width="420"> | <img src="assets/screenshots/02-disassembly.png" alt="Ark bytecode disassembly" width="420"> |
+| <a href="assets/screenshots/harmony-decompilation.png"><img src="assets/screenshots/harmony-decompilation.png" alt="HarmonyOS decompilation" width="420"></a> | <a href="assets/screenshots/android-decompilation.png"><img src="assets/screenshots/android-decompilation.png" alt="Android decompilation" width="420"></a> |
 
-| ABC / Hex inspection | Strings |
+| ABC / Hex inspection | ABC strings |
 | --- | --- |
-| <img src="assets/screenshots/03-abc-hex-view.png" alt="ABC and Hex inspection" width="420"> | <img src="assets/screenshots/04-strings.png" alt="ABC strings view" width="420"> |
+| <a href="assets/screenshots/abc-hex.png"><img src="assets/screenshots/abc-hex.png" alt="ABC / Hex inspection" width="420"></a> | <a href="assets/screenshots/abc-strings.png"><img src="assets/screenshots/abc-strings.png" alt="ABC strings" width="420"></a> |
 
-| ReArk Agent | Agent analysis |
+| ReArk Agent analysis | Android screen mirroring |
 | --- | --- |
-| <img src="assets/screenshots/05-ReArk-agent.png" alt="ReArk Agent workspace" width="420"> | <img src="assets/screenshots/06-ReArk-agent-analysis.png" alt="ReArk Agent analysis result" width="420"> |
-
-| Device runtime | ABC trace view |
-| --- | --- |
-| <img src="assets/screenshots/07-device-runtime.png" alt="HarmonyOS device runtime workspace" width="420"> | <img src="assets/screenshots/08-abc-evidance.png" alt="ABC trace view" width="420"> |
+| <a href="assets/screenshots/agent-analysis.png"><img src="assets/screenshots/agent-analysis.png" alt="ReArk Agent analysis" width="420"></a> | <a href="assets/screenshots/android-mirroring.png"><img src="assets/screenshots/android-mirroring.png" alt="Android screen mirroring" width="420"></a> |
 
 ## Safety and Privacy
 

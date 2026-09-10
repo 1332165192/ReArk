@@ -53,22 +53,17 @@ ReArk 是一款面向 HarmonyOS 和 Android 应用的桌面逆向与 AI 辅助�
 
 ## 截图
 
-| 工作区概览 | Ark 反汇编 |
+| 鸿蒙反编译 | Android 反编译 |
 | --- | --- |
-| <img src="assets/screenshots/01-overview.png" alt="ReArk 工作区概览" width="420"> | <img src="assets/screenshots/02-disassembly.png" alt="Ark 字节码反汇编" width="420"> |
+| <a href="assets/screenshots/harmony-decompilation.png"><img src="assets/screenshots/harmony-decompilation.png" alt="鸿蒙反编译" width="420"></a> | <a href="assets/screenshots/android-decompilation.png"><img src="assets/screenshots/android-decompilation.png" alt="Android 反编译" width="420"></a> |
 
-| ABC / Hex 检查 | 字符串 |
+| ABC / Hex 查看 | ABC 字符串 |
 | --- | --- |
-| <img src="assets/screenshots/03-abc-hex-view.png" alt="ABC 和 Hex 检查" width="420"> | <img src="assets/screenshots/04-strings.png" alt="ABC 字符串视图" width="420"> |
+| <a href="assets/screenshots/abc-hex.png"><img src="assets/screenshots/abc-hex.png" alt="ABC / Hex 查看" width="420"></a> | <a href="assets/screenshots/abc-strings.png"><img src="assets/screenshots/abc-strings.png" alt="ABC 字符串" width="420"></a> |
 
-| ReArk Agent | Agent 分析 |
+| ReArk Agent 分析 | Android 实时投屏 |
 | --- | --- |
-| <img src="assets/screenshots/05-ReArk-agent.png" alt="ReArk Agent 工作区" width="420"> | <img src="assets/screenshots/06-ReArk-agent-analysis.png" alt="ReArk Agent 分析结果" width="420"> |
-
-| 设备运行态 | ABC 迹索视图 |
-| --- | --- |
-| <img src="assets/screenshots/07-device-runtime.png" alt="HarmonyOS 设备运行态工作区" width="420"> | <img src="assets/screenshots/08-abc-evidance.png" alt="ABC 迹索视图" width="420"> |
-
+| <a href="assets/screenshots/agent-analysis.png"><img src="assets/screenshots/agent-analysis.png" alt="ReArk Agent 分析" width="420"></a> | <a href="assets/screenshots/android-mirroring.png"><img src="assets/screenshots/android-mirroring.png" alt="Android 实时投屏" width="420"></a> |
 
 ## 安全与隐私
 
