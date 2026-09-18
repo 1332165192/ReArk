@@ -81,3 +81,7 @@ Third-party notices are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.m
 
 - Issues: [GitHub Issues](https://github.com/lkimuk/ReArk/issues)
 - User guide: [cppmore.com/ReArk](https://www.cppmore.com/category/ReArk/)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lkimuk/ReArk&type=Date)](https://star-history.com/#lkimuk/ReArk&Date)
