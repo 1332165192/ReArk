@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-ReArk is a desktop reverse engineering and AI-assisted analysis tool for HarmonyOS and Android applications. Open HarmonyOS `.hap`, `.app`, and `.abc` files or Android `.apk` and `.aab` packages to inspect code, resources, metadata, and application behavior in one workspace.
+ReArk is a desktop reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT, Android, and iOS applications. Open HarmonyOS `.hap`, `.app`, and `.abc` files, Android `.apk` and `.aab` packages, or iOS `.ipa` files to inspect code, resources, metadata, signatures, and application behavior in one workspace. Standalone Windows PE, ELF, and Mach-O binaries can also be opened directly for native analysis.
 
 Combine static analysis with connected-device inspection and ReArk Agent to investigate application logic, review security, and work through CTF challenges.
 
@@ -20,12 +20,20 @@ Download the installer for your computer from [Latest release](https://github.co
 
 **Package and static analysis**
 
-- Analyze HarmonyOS HAP/APP/ABC and Android APK/AAB files
-- Browse package structure, modules, source output, resources, and application metadata
+- Supports HarmonyOS NEXT `.hap`, `.app`, and `.abc`, Android `.apk` and `.aab`, and iOS `.ipa` files
+- Browse package structure, modules, generated source output, resources, signatures, and metadata
 - Disassemble and decompile ABC bytecode; explore strings, literals, cross-references, and call argument flows
 - Inspect Android manifests, permissions, components, entry points, resources, and application icons
 - Read Android disassembly and Java-like decompiled output
+- Inspect iOS IPA signatures and certificate chains
 - View hex data, formatted JSON, XML, text, images, and media resources; search files and navigate source output
+
+**Native binary analysis**
+
+- Open Windows PE (`.exe`, `.dll`), ELF, and Mach-O executables and libraries directly
+- Browse headers, sections, imports, exports, relocations, and dependencies
+- Review security mitigations such as ASLR, DEP/NX, PIE, RELRO, stack canaries, and CFG
+- Navigate structure-aware listings and hex views with field-level annotations
 
 **HarmonyOS signing and packaging**
 
@@ -53,6 +61,18 @@ Available analysis views and device actions depend on the package format, operat
 
 ## Screenshots
 
+| Welcome and supported formats | Android package summary |
+| --- | --- |
+| <a href="assets/screenshots/welcome.png"><img src="assets/screenshots/welcome.png" alt="Welcome and supported formats" width="420"></a> | <a href="assets/screenshots/android-summary.png"><img src="assets/screenshots/android-summary.png" alt="Android package summary" width="420"></a> |
+
+| iOS IPA summary | iOS signature chain |
+| --- | --- |
+| <a href="assets/screenshots/ios-summary.png"><img src="assets/screenshots/ios-summary.png" alt="iOS IPA summary" width="420"></a> | <a href="assets/screenshots/ios-signature.png"><img src="assets/screenshots/ios-signature.png" alt="iOS signature chain" width="420"></a> |
+
+| PE analysis | ELF analysis |
+| --- | --- |
+| <a href="assets/screenshots/pe-summary.png"><img src="assets/screenshots/pe-summary.png" alt="PE analysis" width="420"></a> | <a href="assets/screenshots/elf-summary.png"><img src="assets/screenshots/elf-summary.png" alt="ELF analysis" width="420"></a> |
+
 | HarmonyOS decompilation | Android decompilation |
 | --- | --- |
 | <a href="assets/screenshots/harmony-decompilation.png"><img src="assets/screenshots/harmony-decompilation.png" alt="HarmonyOS decompilation" width="420"></a> | <a href="assets/screenshots/android-decompilation.png"><img src="assets/screenshots/android-decompilation.png" alt="Android decompilation" width="420"></a> |
@@ -64,6 +84,10 @@ Available analysis views and device actions depend on the package format, operat
 | ReArk Agent analysis | Android screen mirroring |
 | --- | --- |
 | <a href="assets/screenshots/agent-analysis.png"><img src="assets/screenshots/agent-analysis.png" alt="ReArk Agent analysis" width="420"></a> | <a href="assets/screenshots/android-mirroring.png"><img src="assets/screenshots/android-mirroring.png" alt="Android screen mirroring" width="420"></a> |
+
+| PE annotated listing | PE structured hex view |
+| --- | --- |
+| <a href="assets/screenshots/pe-reark-view.png"><img src="assets/screenshots/pe-reark-view.png" alt="PE annotated listing" width="420"></a> | <a href="assets/screenshots/pe-hex-view.png"><img src="assets/screenshots/pe-hex-view.png" alt="PE structured hex view" width="420"></a> |
 
 ## Safety and Privacy
 

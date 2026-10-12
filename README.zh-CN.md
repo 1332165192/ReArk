@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-ReArk 是一款面向 HarmonyOS 和 Android 应用的桌面逆向与 AI 辅助分析工具。支持打开鸿蒙 `.hap`、`.app`、`.abc` 文件和 Android `.apk`、`.aab` 包，在同一个工作区中查看代码、资源、元数据及应用运行行为。
+ReArk 是一款面向 HarmonyOS NEXT、Android 和 iOS 应用的桌面逆向与 AI 辅助分析工具。支持打开鸿蒙 `.hap`、`.app`、`.abc` 文件、Android `.apk`、`.aab` 包和 iOS `.ipa` 文件，在同一个工作区中查看代码、资源、元数据、签名及应用运行行为。也可以直接打开 Windows PE、ELF 和 Mach-O 可执行文件进行原生分析。
 
 结合静态分析、真机交互和 ReArk Agent，可用于研究应用逻辑、安全分析和 CTF 解题。
 
@@ -20,12 +20,20 @@ ReArk 是一款面向 HarmonyOS 和 Android 应用的桌面逆向与 AI 辅助�
 
 **包体与静态分析**
 
-- 支持 HarmonyOS HAP/APP/ABC 和 Android APK/AAB 文件
-- 浏览包结构、模块、源码输出、资源和应用元数据
+- 支持 HarmonyOS NEXT `.hap`、`.app`、`.abc`，Android `.apk`、`.aab`，以及 iOS `.ipa` 文件
+- 浏览包结构、模块、源码输出、资源、签名和元数据
 - 支持 ABC 反汇编、反编译，以及字符串、字面量、交叉引用和调用参数流分析
 - 查看 Android Manifest、权限、组件、入口点、资源和应用图标
 - 查看 Android 反汇编和类 Java 反编译结果
+- 查看 iOS IPA 签名和证书链
 - 支持十六进制、格式化 JSON、XML、文本、图片和媒体资源预览，以及文件搜索和源码导航
+
+**原生二进制分析**
+
+- 直接打开 Windows PE（`.exe`、`.dll`）、ELF 和 Mach-O 可执行文件与动态库
+- 浏览文件头、节区、导入导出、重定位和依赖关系
+- 检查 ASLR、DEP/NX、PIE、RELRO、栈金丝雀和 CFG 等安全缓解措施
+- 在结构化列表和十六进制视图中按字段注释浏览文件结构
 
 **鸿蒙签名与打包**
 
@@ -53,6 +61,18 @@ ReArk 是一款面向 HarmonyOS 和 Android 应用的桌面逆向与 AI 辅助�
 
 ## 截图
 
+| 欢迎页与支持格式 | Android 包体摘要 |
+| --- | --- |
+| <a href="assets/screenshots/welcome.png"><img src="assets/screenshots/welcome.png" alt="欢迎页与支持格式" width="420"></a> | <a href="assets/screenshots/android-summary.png"><img src="assets/screenshots/android-summary.png" alt="Android 包体摘要" width="420"></a> |
+
+| iOS IPA 摘要 | iOS 签名证书链 |
+| --- | --- |
+| <a href="assets/screenshots/ios-summary.png"><img src="assets/screenshots/ios-summary.png" alt="iOS IPA 摘要" width="420"></a> | <a href="assets/screenshots/ios-signature.png"><img src="assets/screenshots/ios-signature.png" alt="iOS 签名证书链" width="420"></a> |
+
+| PE 分析 | ELF 分析 |
+| --- | --- |
+| <a href="assets/screenshots/pe-summary.png"><img src="assets/screenshots/pe-summary.png" alt="PE 分析" width="420"></a> | <a href="assets/screenshots/elf-summary.png"><img src="assets/screenshots/elf-summary.png" alt="ELF 分析" width="420"></a> |
+
 | 鸿蒙反编译 | Android 反编译 |
 | --- | --- |
 | <a href="assets/screenshots/harmony-decompilation.png"><img src="assets/screenshots/harmony-decompilation.png" alt="鸿蒙反编译" width="420"></a> | <a href="assets/screenshots/android-decompilation.png"><img src="assets/screenshots/android-decompilation.png" alt="Android 反编译" width="420"></a> |
@@ -64,6 +84,10 @@ ReArk 是一款面向 HarmonyOS 和 Android 应用的桌面逆向与 AI 辅助�
 | ReArk Agent 分析 | Android 实时投屏 |
 | --- | --- |
 | <a href="assets/screenshots/agent-analysis.png"><img src="assets/screenshots/agent-analysis.png" alt="ReArk Agent 分析" width="420"></a> | <a href="assets/screenshots/android-mirroring.png"><img src="assets/screenshots/android-mirroring.png" alt="Android 实时投屏" width="420"></a> |
+
+| PE 结构化列表 | PE 结构化 Hex 视图 |
+| --- | --- |
+| <a href="assets/screenshots/pe-reark-view.png"><img src="assets/screenshots/pe-reark-view.png" alt="PE 结构化列表" width="420"></a> | <a href="assets/screenshots/pe-hex-view.png"><img src="assets/screenshots/pe-hex-view.png" alt="PE 结构化 Hex 视图" width="420"></a> |
 
 ## 安全与隐私
 
